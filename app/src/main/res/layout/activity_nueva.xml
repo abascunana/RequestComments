@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevaActivity">
+
+    <EditText
+        android:id="@+id/editNameComm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombrecomment"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editComm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/comment"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/editNameComm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comment Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnrequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request" />
+
+    <TextView
+        android:id="@+id/CommentArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="" />
+</LinearLayout>

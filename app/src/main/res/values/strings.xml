@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SqlTutorial</string>
+    <string name="nombrecomment">NombreComment</string>
+    <string name="comment">Comment</string>
+    <string name="submit">Submit</string>
+    <string name="menunuevo">MenuNuevo</string>
+</resources>
